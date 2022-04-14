@@ -1,20 +1,16 @@
-# Python_DataBase
-Código simples aplicando Interface gráfica com manipulação de DB.
+# Python Flask Application
 
+It is a simple code to demonstrate some of Flask lib applications. It was codded following the steps at https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3#introduction.
 
-Para executar o código desta pasta, deve-se cumprir os seguintes prerrequisitos:
-
-possuir python3
-
-instalar os seguintes pacotes:
+To run the code is necessary to have the following packages:
 
 	sqlite3			-	sudo apt install sqlite3
-	PySimpleGUI		-	pip3 install pysimplegui
-	tkinter			-	sudo apt-get install python3-tk
+	flask			-	pip3 install flask
 
-
-Para executar o programa:
+To run it:
 	
-	python3 my_interface_python.py
+	python3 http_python_server.py
+
+After the server is up, access http://127.0.0.1:5000 from any web browser and have fun!
 
 
